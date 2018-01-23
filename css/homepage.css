@@ -1,0 +1,135 @@
+
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.crceimg{
+	float:left; 
+	padding-top:10px;
+}
+
+.stucologo{
+	float:right
+}
+
+.stucotitle{
+	padding-top:100px;
+	padding-bottom:50px;
+}
+
+.stucotitle h1{
+	font-size: 4em;
+}
+
+.stucotitle h2{
+	font-size: 2em;
+}
+
+hr{
+	background-color: #6a5750;
+	margin-top: -1px;
+   }
+
+.heading{
+	font-size: 50px;
+}
+
+.shortinfo{
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+/*start of the animation*/
+	
+	.wrapper{
+		padding-top: 10px;
+	}
+
+	.wrapper img{
+
+		height: 100%;
+		width: 100%;
+	}
+
+	.content{
+		visibility: hidden;
+		width:100%;
+		transition: transform 300ms;
+	}
+
+	.wrapper:hover .content{
+		visibility: visible;
+		transform: translateY(-125px);
+		height: 100%;	
+		
+	}
+
+	.wrapper:hover img{
+
+		filter: blur(1px);
+	}
+
+	.text_area{
+		color: white;
+		text-align: center;
+		font-size: 15px;
+		position: absolute;
+		margin-left:20px;
+	}
+/*end of the animation*/
+.parallax{
+	height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.crceimg .col-xs-*{
+
+	width: 100px;
+	height: 100px;
+}
+
+// start of css for testimonials
+ 	.avatarname{
+	    margin-top: -34px;
+	    margin-bottom: 0px;
+	    margin-left: 100px;
+	    font-size: 15px;
+	    color: #82bac6;
+	    font-weight: bold;
+	    top: -45px;
+		left: 112px;
+		position: relative;
+	}
+	
+	.avatarclass{
+		margin-left: 101px;
+		margin-top: 2px;
+		
+		color: #82bac6;
+		font-weight: 100;
+		top: -41px;
+		position: relative;
+		left: 7px;
+	}
+
+	.panel-heading p {
+		text-align: left;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.6;
+	}
+
+	.panel-profile-img {
+			    max-width: 100px;
+			    margin-top: -70px;
+			    margin-bottom: 5px;
+			    border: 3px solid #fff;
+			    border-radius: 100%;
+			    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			}
+//end of css for testimonials

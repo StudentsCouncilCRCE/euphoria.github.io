@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EUPHORIA 2018</title>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Euphoria, A Cultural Fest organised by the Students' Council of Fr. Conceicao Rodrigues College Of Engineering. This is an Intra-College fest which will run for 3 days this year." />
+    <meta name="keywords" content="Euphoria, crce, college, 2018, engineering, fest, bandra, conceicao, cultural, festival, events, responsive, website, students, council" />
+    <meta name="author" content="Ryan Dsilva" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Meta tags -->
+
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!-- //font-awesome icons -->
+    <!--stylesheets-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!--//style sheet end here-->
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i" rel="stylesheet">
+    <link href="fonts/edosz.ttf" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="count-center">
+        <div class="top">
+            <h1>EUPHORIA 2018</h1>
+            <br>
+            <h1>VIVA LA VIDA : Live Your Life !</h1>
+            <h2>Coming Soon</h2>
+        </div>
+        <!--countdown-->
+        <div class="count-time">
+            <div class="examples">
+                <div class="simply-countdown-losange " id="simply-countdown-losange">
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--//countdown-->
+
+        <div class="copyright">
+            <p>&copy; 2017-2018 Students' Council CRCE. All Rights Reserved | Design by Ryan Dsilva </p>
+        </div>
+    </div>
+
+
+    <script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+    <!-- //js -->
+    <!--menu script-->
+    <script src="js/simplyCountdown.js"></script>
+    <script>
+        
+        var d = new Date("Febuary 2, 2018 08:00:00");
+        d.setDate(2);
+        
+        // default example
+        simplyCountdown('.simply-countdown-one', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate()
+        });
+
+        // inline example
+        simplyCountdown('.simply-countdown-inline', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            inline: true
+        });
+
+        //jQuery example
+        $('#simply-countdown-losange').simplyCountdown({
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            enableUtc: false
+        });
+    </script>
+</body>
+
+</html>
