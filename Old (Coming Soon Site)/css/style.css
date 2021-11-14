@@ -44,14 +44,14 @@ ul{
 }
 /*-- //Reset-Code --*/
 body {
-    background: url(../images/Bubble-Background.svg);
+    background: url(../images/bglines.svg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 100vh;
+    min-height: 100vh; 
 }
 
 .count-time{margin:4em 0;}
