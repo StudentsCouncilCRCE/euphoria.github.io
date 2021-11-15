@@ -94,7 +94,7 @@ h2 {
   color: #ec5538;
 }
 .navbar-brand {
-  background-color: #1b7b98;
+  background-color: #1b7b9800;
   height: 90px;
   margin-bottom: 20px;
   position: relative;
@@ -153,13 +153,17 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
-  background-image: url(../images/bg.jpg);
+  /* background-image: url(../images/bg.jpg); */
   background-position: center;
   background-size: cover;
   -webkit-animation: backgroundScroll 7s linear infinite;
   -webkit-animation-fill-mode: forwards;
   animation: backgroundScroll 7s linear infinite;
   animation-fill-mode: forwards;
+}
+.video-allign{
+  /* height: 100vh; */
+  width: fit-content;
 }
 .container-viva {
   padding: 300px 0 300px;
